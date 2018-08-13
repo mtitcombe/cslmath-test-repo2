@@ -1,0 +1,81 @@
+## DESCRIPTION
+##   History of Complex Numbers. Written in PGML.
+## ENDDESCRIPTION
+
+## DBsubject(Complex analysis)
+## DBchapter(History)
+## DBsection()
+## Date(2018-Mar-29)
+## Author(M. Titcombe)
+## Level()
+## MO()
+## TitleText1()
+## AuthorText1()
+## EditionText1()
+## Section1()
+## Problem1()
+## KEYWORDS('Complex','Imaginary','complex number')
+
+DOCUMENT();
+
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGcourse.pl",
+  "PGchoicemacros.pl",
+  "PGML.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Numeric');
+
+$mc = new_multiple_choice();
+
+# syntax for qa
+# qa("question","correct answer")
+$mc -> qa ("What are the coordinates of the point \( A \)?", 
+" \( (-b,0) \)$BR",
+);
+
+# syntax... add other choices than correct answer above
+$mc -> extra(
+" \( (-b,c) \)$BR",
+" \( (-b,-c) \) $BR",
+" \( (0,c) \)$BR",
+);
+
+$mc -> makeLast("None of the above");
+
+# How to put in a static image...
+#An excerpt from Descartes' text is below:  
+#[@ image( "term_imaginary.jpg", width=>480, height=>211,  
+#tex_size=>700, extra_html_tags=>'alt="First coined the term imaginary"' ) @]*
+
+
+
+BEGIN_PGML
+  
+>>*Wallis's Near Miss*<<
+
+John Wallis is also known for introducing the symbol [`\infty`] for infinity.
+
+In 1673, John Wallis made a good attempt at interpreting geometrically the roots of a quadratic equation in which the discriminant is negative.
+
+
+
+[@ $mc -> print_q() @]***
+[@ $mc -> print_a() @]***
+
+END_PGML
+
+#  Answer evaluation
+install_problem_grader(~~&std_problem_grader);
+$showPartialCorrectAnswers = 0;
+ANS( checkbox_cmp( $mc->correct_ans() ) );
+
+
+COMMENT('Written in PGML.');
+ENDDOCUMENT();

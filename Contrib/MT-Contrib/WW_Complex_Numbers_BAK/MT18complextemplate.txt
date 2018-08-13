@@ -1,0 +1,74 @@
+## DESCRIPTION
+##   History of Complex Numbers. Written in PGML.
+## ENDDESCRIPTION
+
+## DBsubject(Complex analysis)
+## DBchapter(History)
+## DBsection()
+## Date(2018-Apr-20)
+## Institution(Champlain College Saint-Lambert)
+## Author(M. Titcombe)
+## Level()
+## MO()
+## TitleText1()
+## AuthorText1()
+## EditionText1()
+## Section1()
+## Problem1()
+## KEYWORDS('Complex','Imaginary','complex number')
+
+DOCUMENT();
+
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGcourse.pl",
+  "PGchoicemacros.pl",
+  "PGML.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+Context('Numeric');
+
+$mc = new_multiple_choice();
+
+# syntax for qa
+# qa("question","correct answer")
+$mc -> qa ("Question to come?", 
+"this is correct $BR",
+);
+
+# syntax... add other choices than correct answer above
+$mc -> extra(
+"another answer $BR",
+"yet another answer $BR",
+"and one more answer$BR",
+);
+
+$mc -> makeLast("None of the above");
+
+
+BEGIN_PGML
+  
+>>*Title*<<
+
+Text to come ...
+
+[@ $mc -> print_q() @]***
+[@ $mc -> print_a() @]***
+
+>> ----- <<
+END_PGML
+
+#  Answer evaluation
+install_problem_grader(~~&std_problem_grader);
+$showPartialCorrectAnswers = 0;
+ANS( checkbox_cmp( $mc->correct_ans() ) );
+
+
+COMMENT('Written in PGML.');
+ENDDOCUMENT();
+
