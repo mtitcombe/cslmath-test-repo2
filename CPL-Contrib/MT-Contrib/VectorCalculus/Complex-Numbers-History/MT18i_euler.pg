@@ -17,6 +17,8 @@
 ## Problem1()
 ## KEYWORDS('Complex','Imaginary','complex number')
 
+## RESOURCES('Euler_inotation.png')
+
 DOCUMENT();
 
 

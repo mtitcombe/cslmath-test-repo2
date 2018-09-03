@@ -2,6 +2,7 @@
 ## Linear Algebra
 ## Problem 7 Chapter 1-Supplementary Exercises in Anton 
 ## Elementary Linear Algebra, 9th edition
+## Aug 2018 MT tagged and renamed
 ## ENDDESCRIPTION
 
 ## KEYWORDS('matrix')
@@ -11,7 +12,12 @@
 ## DBsection('Elimination Methods')
 ## Date('26 October 2011')
 ## Author('Charles Fortin')
-## Institution('Champlain College')
+## Institution('Champlain College Saint-Lambert')
+## TitleText1('Elementary Linear Algebra')
+## EditionText1('9')
+## AuthorText1('Anton')
+## Section1('1 - Suppl')
+## Problem1('7')
 
 DOCUMENT(); 
 

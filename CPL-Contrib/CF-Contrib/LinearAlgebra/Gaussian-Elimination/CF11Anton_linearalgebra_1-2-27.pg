@@ -1,6 +1,7 @@
 ## DESCRIPTION
 ## Linear Algebra
 ## Problem 1.1.27 in Anton Elementary Linear Algebra, 10th edition
+## Aug 2018 MT tagged and renamed
 ## ENDDESCRIPTION
 
 ## KEYWORDS('gaussian elimination')
@@ -10,7 +11,12 @@
 ## DBsection('Elimination Methods')
 ## Date('12 October 2011')
 ## Author('Charles Fortin')
-## Institution('Champlain College')
+## Institution('Champlain College Saint-Lambert')
+## TitleText1('Elementary Linear Algebra')
+## EditionText1('10')
+## AuthorText1('Anton')
+## Section1('1.1')
+## Problem1('1.1.27')
 
 DOCUMENT(); 
 
