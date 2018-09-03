@@ -10,8 +10,12 @@
 ## DBsection('')
 ## Date('6 October 2011')
 ## Author('Charles Fortin')
-## Institution('Champlain College')
-
+## Institution('Champlain College Saint-Lambert')
+## TitleText1('Elementary Linear Algebra')
+## EditionText1('10')
+## AuthorText1('Anton')
+## Section1('1.1')
+## Problem1('1.1.7')
 
 
 DOCUMENT(); 

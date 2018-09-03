@@ -17,6 +17,9 @@
 ## Problem1()
 ## KEYWORDS('Complex','Imaginary','complex number')
 
+## RESOURCES('gauss-complexos.jpg')
+
+
 DOCUMENT();
 
 

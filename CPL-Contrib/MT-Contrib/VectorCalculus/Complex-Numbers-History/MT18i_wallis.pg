@@ -16,6 +16,8 @@
 ## Problem1()
 ## KEYWORDS('Complex','Imaginary','complex number')
 
+## RESOURCES('realroots.png','complexroots.png')
+
 DOCUMENT();
 
 

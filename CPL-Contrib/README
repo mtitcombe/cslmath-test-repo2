@@ -4,7 +4,7 @@ New contributions for the Champlain Problem Library (CPL) should appear here.
 
 By putting problems in this area, the problem authors are giving
 CPL maintainers permission to copy problems from this area to the CPL.
-The copies are then maintained by the OPL which may modify problems
+The copies are then maintained by the CPL which may modify problems
 as needed to blend into the CPL in terms of content and style.
 
 Please put your contributions in a subdirectory prefixed with your intials, 
@@ -26,7 +26,7 @@ For example, a tag preamble looks like this:
 ## Author('Jane Doe')
 ## Institution('Champlain College Saint-Lambert')
 ## TitleText1('')
-## EditionText1('7')
+## EditionText1('')
 ## AuthorText1('')
 ## Section1('')
 ## Problem1('')

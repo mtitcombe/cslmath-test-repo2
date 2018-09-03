@@ -1,17 +1,17 @@
 ## DESCRIPTION
 ##   Simplex Method
 ## Author: C Fortin, Champlain College St-Lambert
+## Aug 2018 MT tagged and renamed
 ## ENDDESCRIPTION
 
-## KEYWORDS('Simplex Method')
-## Tagged by nhamblet
+## KEYWORDS('Simplex Method','Linear Algebra')
 
-## DBsubject('Algebra')
+## DBsubject('Operations Research')
 ## DBchapter('Linear Programming')
 ## DBsection('Simplex Method')
-## Date('')
-## Author('')
-## Institution('Champlain College')
+## Date('2013')
+## Author('Charles Fortin')
+## Institution('Champlain College Saint-Lambert')
 ## TitleText1('')
 ## EditionText1('')
 ## AuthorText1('')

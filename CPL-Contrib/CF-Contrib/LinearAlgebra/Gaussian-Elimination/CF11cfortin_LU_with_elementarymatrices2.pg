@@ -11,9 +11,7 @@
 ## DBsection('LU and QR Factorization')
 ## Date('24 June 2011')
 ## Author('Charles Fortin')
-## Institution('Champlain College')
-
-
+## Institution('Champlain College Saint-Lambert')
 
 DOCUMENT(); 
 

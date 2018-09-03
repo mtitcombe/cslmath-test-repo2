@@ -36,19 +36,21 @@
 #
 # WeBWorK problem written by Charles Fortin, 
 # <cfortin(at)champlaincollege.qc.ca(dot)ca>
+# Aug 2018 MT tagged and renamed
 # ENDDESCRIPTION
 
-## DBsubject('WeBWorK')
-## DBchapter('Demos')
-## DBsection('Problem')
-## KEYWORDS('')
+## DBsubject('Operations Research')
+## DBchapter('Linear Programming')
+## DBsection('Simplex Method')
+## KEYWORDS('Linear Algebra')
 ## TitleText1('')
 ## EditionText1('')
 ## AuthorText1('')
 ## Section1('')
 ## Problem1('')
+## Date('2012')
 ## Author('Charles Fortin')
-## Institution('ChamplainCollege')
+## Institution('Champlain College Saint-Lambert')
 
 DOCUMENT();
 loadMacros(
